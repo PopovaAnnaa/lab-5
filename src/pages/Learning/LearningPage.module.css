@@ -1,0 +1,107 @@
+.learningLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.mainContent {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 2rem;
+  padding: 20px;
+  align-items: start;
+}
+
+.topicsListWrapper {
+  position: sticky;
+  top: 20px;
+  background: #fdfdfd;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.searchInput {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.topicsSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.accordion {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+.accordionItem {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordionHeader {
+  width: 100%;
+  text-align: left;
+  background: #f1f1f1;
+  color: #333;
+  padding: 10px 15px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.accordionHeader:hover {
+  background: #e3e3e3;
+}
+
+.accordionContent {
+  display: none;
+  padding: 10px 15px;
+  background: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.accordionItemActive .accordionContent {
+  display: block;
+}
+
+.footer {
+  background: #f9f9f9;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 0.9em;
+  border-top: 1px solid #eee;
+}
+
+.footerLink {
+  color: #b95c7b;
+}
+
+.footerLink:hover {
+  color: #5b7a5a;
+}
+
+.button {
+  background-color: #b95c7b;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background-color: #5b7a5a;
+}

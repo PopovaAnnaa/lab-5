@@ -1,0 +1,50 @@
+.main {
+  margin: 30px 20px;
+}
+
+.goalBlock, .infoBlock, .aside {
+  background-color: #fdfdfd; 
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.heading2, .heading3 {
+  color: #5b7a5a; 
+}
+
+.studyTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.studyTable th, .studyTable td {
+  border: 1px solid #eee;
+  padding: 8px;
+  text-align: left;
+}
+
+.studyTable th {
+  background-color: #f9f9f9;
+  color: #b95c7b; 
+}
+
+.button {
+  background-color: #b95c7b; 
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.button:hover {
+  background-color: #8b445b; 
+}
+
+.underline {
+  text-decoration-color: #b95c7b;
+}

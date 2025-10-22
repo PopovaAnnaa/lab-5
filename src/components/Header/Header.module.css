@@ -1,0 +1,43 @@
+.header {
+  background-color: #f9f9f9;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerBlock {
+  background-color: #f9f9f9;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.logoLink {
+  margin: 0;
+  font-size: 1.8em;
+  color: #b95c7b;
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #5b7a5a;
+}
